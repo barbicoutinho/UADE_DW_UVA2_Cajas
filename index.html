@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro Gimnasio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gimnasio Energía Total</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Planes</a></li>
+        <li><a href="#">Horarios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="registro">
+      <h2>Formulario de Registro</h2>
+      <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="plan">Tipo de plan:</label>
+        <select id="plan" name="plan">
+          <option value="basico">Básico</option>
+          <option value="premium">Premium</option>
+          <option value="full">Full</option>
+        </select>
+
+        <label for="horario">Horario preferido:</label>
+        <select id="horario" name="horario">
+          <option value="mañana">Mañana</option>
+          <option value="tarde">Tarde</option>
+          <option value="noche">Noche</option>
+        </select>
+
+        <button type="submit">Registrarse</button>
+      </form>
+    </section>
+
+    <section class="imagen">
+      <img src="entreno.jpg" alt="Personas entrenando en gimnasio">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gimnasio Energía Total. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
